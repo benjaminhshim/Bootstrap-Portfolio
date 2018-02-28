@@ -1,6 +1,6 @@
 .content {
     background: url("../images/extra_clean_paper.png");
-    height: calc(100vh - 114px);
+    min-height: calc(100vh - 122px);
 }
 
 header {
@@ -52,3 +52,7 @@ footer {
     background: #777777;
 }
 
+button {
+    background-color: #4aaaa5;
+    color: white;
+}
