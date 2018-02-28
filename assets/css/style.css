@@ -1,0 +1,13 @@
+.content {
+    background: url("../images/extra_clean_paper.png");
+    height: calc(100vh - 114px);
+}
+
+header {
+    box-shadow: 0 1px 10px  gray;
+}
+
+.social {
+    max-height: 100px;
+    max-width: 100px;
+}
