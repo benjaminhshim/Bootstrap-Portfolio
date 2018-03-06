@@ -1,6 +1,6 @@
 .content {
     background: url("../images/extra_clean_paper.png");
-    min-height: calc(100vh - 122px);
+    min-height: calc(100vh - 127px);
 }
 
 header {
@@ -50,9 +50,18 @@ h2 {
 
 footer {
     background: #777777;
+    border-top: 10px solid #4aaaa5;
 }
 
 button {
     background-color: #4aaaa5;
     color: white;
 }
+
+/* --------- MEDIA QUERIES -------------- */
+@media screen and (max-width: 992px) {
+    aside h2 {
+        font-size: 26px;
+    }
+}
+
